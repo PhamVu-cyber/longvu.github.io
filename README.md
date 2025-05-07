@@ -2,62 +2,38 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trang Web Đầu Tiên</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 20px 0;
-    }
-
-    main {
-      padding: 40px;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    p {
-      font-size: 18px;
-      color: #555;
-    }
-
-    .button {
-      margin-top: 20px;
-      padding: 12px 24px;
-      font-size: 16px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .button:hover {
-      background-color: #45a049;
-    }
-  </style>
+  <title>Cửa hàng Mini</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
-    <h1>Chào mừng bạn đến với trang web đầu tiên!</h1>
+    <h1>Cửa hàng Mini</h1>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Sản phẩm</a>
+      <a href="#">Liên hệ</a>
+    </nav>
   </header>
 
-  <main>
-    <p>Đây là trang web mẫu do bạn tạo ra bằng HTML và CSS.</p>
-    <button class="button" onclick="alert('Bạn vừa bấm nút!')">Bấm vào đây</button>
-  </main>
+  <section class="products">
+    <div class="product">
+      <img src="img/sp1.jpg" alt="Sản phẩm 1">
+      <h2>Sản phẩm 1</h2>
+      <p>Giá: 150.000₫</p>
+      <button>Mua ngay</button>
+    </div>
+    <div class="product">
+      <img src="img/sp2.jpg" alt="Sản phẩm 2">
+      <h2>Sản phẩm 2</h2>
+      <p>Giá: 230.000₫</p>
+      <button>Mua ngay</button>
+    </div>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 Cửa hàng Mini</p>
+  </footer>
 </body>
 </html>
+    
+  
