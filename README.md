@@ -35,56 +35,8 @@
   </footer>
 </body>
 </html>
- body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+ 
 
-header {
-  background: #0077cc;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+ 
 
-nav a {
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
-}
-
-.products {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.product {
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-}
-
-.product img {
-  width: 100%;
-  height: auto;
-}
-
-button {
-  background: green;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #f1f1f1;
-}   
   
