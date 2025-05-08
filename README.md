@@ -17,7 +17,7 @@
 
   <section class="products">
     <div class="product">
-      <img src="img/sp1.jpg" alt="Sản phẩm 1">
+      <img src=![z6579955499416_a2fe133097efe3bf1552738a81a6f016](https://github.com/user-attachments/assets/59b03f8f-3087-4ff4-856f-b1a9a63d6224) alt="Sản phẩm 1">
       <h2>Sản phẩm 1</h2>
       <p>Giá: 150.000₫</p>
       <button>Mua ngay</button>
